@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
 }
-.login-form > button {
+.login-button {
   background-color: #4267b2;
   border: 1px solid #29487d;
   color: white;

@@ -2,6 +2,7 @@
  * 1. Agregar el texto "facebook" al header h1
  * 
  * 2. Crear un boton de login y agregarlo en donde se indica en el documento HTML
+ * 2.1 Agregar la clase login-button al boton creado
  * 
  * 3. Agregar un evento que al momento de realizar un Submit, se ejecute y muestre
  *    en un alert el email y password que se ingresaron
