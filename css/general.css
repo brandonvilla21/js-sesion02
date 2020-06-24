@@ -1,0 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+  background: #e9ebee;
+}

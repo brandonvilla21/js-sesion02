@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook Login</title>
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+      <div>
+        <h1 class="facebook-title" id="facebookTitle"></h1>
+      </div>
+      <div>
+        <form id="loginForm" class="login-form" action="POST">
+          <div class="input-container">
+            <label for="email">Correo electrónico o teléfono</label>
+            <input type="text">
+          </div>
+          <div class="input-container">
+            <label for="password">Contraseña</label>
+            <input type="text">
+          </div>
+          <!-- Agregar el botton de login aquí -->
+        </form>
+      </div>
+    </div>
+  </header>
+
+
+  <section id="main-content">
+    <div class="left-side">
+      <span class="title-1">Inicios de sesión recientes</span> 
+      <span class="title-2">Haz clic en tu foto o agrega una cuenta.</span>
+    </div>
+    <div class="right-side">
+      <span class="title-1">Crea una cuenta</span> 
+      <span class="title-2">Es rápido y fácil.</span>
+
+      <div>
+        <form>
+          <div class="signing-input-content">
+            <input id="name" class="signing-input" type="text" placeholder="Nombre">
+            <input id="lastName" class="signing-input" type="text" placeholder="Apellido">
+          </div>
+          <div class="signing-input-content">
+            <input id="email" class="signing-input" type="text" placeholder="Número de celular o correo electrónico">
+          </div>
+          <div class="signing-input-content">
+            <input id="password" class="signing-input" type="text" placeholder="Contraseña nueva">
+          </div>
+          <button class="websubmit" id="signingButton">Registrate</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-content">
+      Not Facebook © 2020
+    </div>
+  </footer>
+  <script src="/js/index.js"></script>
+</body>
+</html>

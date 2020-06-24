@@ -1,0 +1,118 @@
+.header {
+  background-color: #3b5998;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783;
+  min-height: 42px;
+  position: relative;
+  z-index: 1;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.facebook-title {
+  color: white;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+}
+.login-form > button {
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  color: white;
+  height: 25px;
+  min-width: 100px;
+  border-radius: 2px;
+  font-weight: bold;
+  margin-top: 13px;
+  cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+.input-container > label {
+  color: white;
+  font-size: 12px;
+}
+.input-container > input {
+  padding-bottom: 4px;
+  margin: 0;
+  width: 142px;
+  padding: 3px;
+}
+
+#main-content {
+  margin: 30px 150px;
+  display: flex;
+  height: 70vh;
+}
+
+.left-side, .right-side {
+  flex: 1
+}
+.title-1 {
+  font-size: 36px;
+  display: block;
+  font-weight: 500;
+}
+.title-2 {
+  font-size: 19px;
+  line-height: 126%;
+  display: block;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+
+.signing-input {
+  font-size: 18px;
+  padding: 8px 10px;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  margin: 0 10px 10px 0;
+  border: 1px solid #ccd0d5;
+  width: 100%;
+}
+.signing-input-content {
+  display: flex;
+}
+.websubmit {
+  font-size: 19px;
+  font-weight: bold !important;
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 1px;
+  position: relative;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 50px;
+}
+
+footer {
+  height: 100px;
+  background: #fff;
+  display: flex;
+}
+.footer-content {
+  margin: 0 150px;
+  color: #999;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
